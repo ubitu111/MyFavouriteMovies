@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Заменен на SearchView
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".SearchActivity">
+
+    <EditText
+        android:id="@+id/editTextMovieTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/search_enter_movie_title"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="@string/search_searching"
+        android:onClick="onClickSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMovieTitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

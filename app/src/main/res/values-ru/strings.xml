@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мои Любимые Фильмы</string>
+    <string name="main_most_popular">Самые Популярные</string>
+    <string name="main_top_rated">Наибольший рейтинг</string>
+    <string name="movie_detail_original_title">Оригинальное название:</string>
+    <string name="movie_detail_overview">Описание:</string>
+    <string name="movie_detail_popularity">Популярность:</string>
+    <string name="movie_detail_release_date">Дата релиза:</string>
+    <string name="movie_detail_title">Название:</string>
+    <string name="movie_detail_vote_average">Средний рейтинг:</string>
+    <string name="press_again_to_exit">Нажмите еще раз для выхода</string>
+    <string name="search_enter_movie_title">Введите название фильма</string>
+    <string name="search_result_hint">Вы искали:</string>
+    <string name="search_searching">Поиск</string>
+    <string name="label_favourite_activity">Избранное</string>
+    <string name="label_search_activity">Поиск по названию</string>
+    <string name="label_search_results">Результаты поиска</string>
+    <string name="main_home_page">Главная страница</string>
+    <string name="add_to_favourite">Добавлено в избранное</string>
+    <string name="remove_from_favourite">Удалено из избранного</string>
+    <string name="search_nothing">Ничего не найдено.</string>
+</resources>

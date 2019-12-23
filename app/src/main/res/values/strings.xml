@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Favourite Movies</string>
+    <string name="press_again_to_exit">Press again to exit</string>
+    <string name="movie_detail_title">Title:</string>
+    <string name="movie_detail_original_title">Original title:</string>
+    <string name="movie_detail_popularity">Popularity:</string>
+    <string name="movie_detail_vote_average">Vote average:</string>
+    <string name="movie_detail_release_date">Release date:</string>
+    <string name="movie_detail_overview">Overview</string>
+    <string name="movie_detail_description_for_image_favourite" translatable="false">Image for add or remove favourite</string>
+    <string name="image_view_for_big_poster" translatable="false">imageViewForBigPoster</string>
+    <string name="main_most_popular">Most Popular</string>
+    <string name="main_top_rated">Top Rated</string>
+    <string name="search_enter_movie_title">Enter movie name</string>
+    <string name="search_searching">Search</string>
+    <string name="search_result_hint">You were looking:</string>
+    <string name="small_poster_favourite" translatable="false">smallPosterFavourite</string>
+    <string name="image_view_for_small_poster" translatable="false">imageViewForSmallPoster</string>
+    <string name="image_view_for_icon_videos" translatable="false">imageViewForIconVideos</string>
+    <string name="label_search_results">Search results</string>
+    <string name="label_search_activity">Search for movies by name</string>
+    <string name="label_favourite_activity">Favourite</string>
+    <string name="main_home_page">Main Page</string>
+    <string name="add_to_favourite">Added to favourite</string>
+    <string name="remove_from_favourite">Removed from favourite</string>
+    <string name="search_nothing">Nothing found.</string>
+</resources>

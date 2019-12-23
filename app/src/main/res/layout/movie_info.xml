@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_percent="0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textViewLabelTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/movie_detail_title"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewLabelOriginalTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/movie_detail_original_title"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewOriginalTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewLabelPopularity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOriginalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/movie_detail_popularity"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewPopularity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOriginalTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewLabelVoteAverage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPopularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/movie_detail_vote_average"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewVoteAverage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPopularity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite" />
+
+
+    <TextView
+        android:id="@+id/textViewLabelReleaseDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVoteAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/movie_detail_release_date"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewReleaseDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVoteAverage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/colorWhite" />
+
+
+    <TextView
+        android:id="@+id/textViewLabelOverview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingTop="16dp"
+        android:text="@string/movie_detail_overview"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textViewOverview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLabelOverview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingBottom="16dp"
+        android:textColor="@color/colorWhite" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewVideos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOverview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:nestedScrollingEnabled="false" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
